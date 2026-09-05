@@ -1,0 +1,16 @@
+# Predicting Smartphone Addiction via Advanced Tabular Ensembles
+
+This repository hosts the end-to-end machine learning pipeline designed for the behavioral classification challenge focused on predicting smartphone addiction and user dependency patterns.
+
+## 📈 Performance Framework
+- **Primary Evaluation Metric:** Area Under the ROC Curve (ROC-AUC)
+- **Peak Validation Score:** **0.96530**
+
+## 🛠️ Technical Composition & Pipeline Architecture
+- **Data Preprocessing:** Implemented standard feature scaling arrays (`StandardScaler`) to normalize high-dimensional user interaction frequencies and application usage metrics while eliminating feature distribution drift.
+- **Model Architecture:** Utilized a highly tuned **LightGBM (Light Gradient Boosting Machine)** ensemble framework optimized with customized leaf parameters, learning rate bounds, and depth configurations.
+- **Validation Protocol:** Executed a robust **5-Fold Stratified Cross-Validation** strategy to preserve class distributions across iterations and completely guard against model overfitting.
+
+## 🔬 Core Learning Objectives Met
+- Handling class classification challenges in multi-dimensional behavioral data arrays.
+- Optimizing separation boundaries to maximize True Positive Rates while controlling False Positive hazards.
